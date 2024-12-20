@@ -1,0 +1,138 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/* navigation bar style section*/
+
+.topBar{
+    position: fixed;
+    top:0;
+    width: 100vw;
+    z-index: 10;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 10vh;
+    align-items: center;
+}
+.logo{
+    width:70vw;
+    padding: 0 25px;
+    font-weight: 900;
+    color:white;
+    
+}
+.logo h1{
+    margin-bottom: 0;
+    text-decoration: none;
+}
+.subs{
+  width:30vw;
+  padding-right: 30px;
+}
+.subs ul li a{
+    color: white
+}
+
+
+/* Main Content style section */
+
+.mainContent{
+    padding:20px 50px;
+    padding-top:100px;
+    color:white;
+    background-image:linear-gradient(black,white);
+}
+.content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex:0 1 auto;
+    gap:20px 10px;
+}
+
+.card-img-top{
+    height:200px;
+}
+
+
+/* Signup and Sign In Page Style Section */
+#signUpContainer{
+    display:none;
+    height:100%;
+    min-height: 90vh;
+    padding:100px 200px 10px 200px;
+
+    
+}
+#signUpContainer p{
+    color:red;
+    font-size: small;
+}
+#submitBtn{
+
+background-color: rgb(25, 62, 174);
+width:200px;
+}
+#cancelBtn{
+    color:white;
+    background-color: rgb(246, 118, 118);
+   
+}
+#submitBtn:hover,#cancelBtn:hover{
+    border:2px solid black;
+}
+#cancelBtn,#submitBtn{
+    color:white;
+    width: 245px;
+    height: 35px;
+    font-size: larger;
+    border-radius: 20px;
+}
+#signInForm h1,#signUpForm h1{
+    font-weight: 900;
+}
+#userName,#emailId,#password,#passConf{
+width:500px;
+height:35px;
+border:1px solid black;
+border-radius: 25px;
+padding: 3px 15px;
+font-size: larger;
+}
+
+/* Membership section style  */
+
+.membershipPage{
+    text-align: center;
+    padding: 60px 100px;
+    background-image:linear-gradient(black,white);
+}
+.memberTitle{
+    color:white;
+}
+.priceCard{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    flex:0 1 auto;
+    gap:20px;
+    justify-content:center
+}
+.card-header,.card-title, .card-footer{
+    font-weight: 600;
+    padding: 3px;;
+}
+
+/* Footer section style */
+.footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Subscription</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/bootstrap.min.css">
+    <script src="script.js" defer></script>
+    <script src="./src/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+    <section class="topBar">
+        <div class="logo">
+            <a href="/index.html"><h1 class="logo">TECHBLOG</h1></a>
+        </div>
+        <div class="subs" id="subs">
+            <ul class="nav nav-pills justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#membershipPage">Memberships</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " id="a-create" aria-current="page" onclick="signUp()" href="#">Create Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="a-user" onclick="signIn()" href="#">Sign In</a>
+            </li>
+           
+          </ul>
+        </div>
+        
+        
+    </section>
+    <section class="mainContent" id="mainContent">
+        <div>
+          <div id="username"></div>
+            <h1>Newsletters</h1>
+            <p><h4>You need more Tech related emails. </h4>
+                SignUp with our Tech Blog Website. You will receive the Tech updates and Tech News Daily to your inbox.</p>
+
+        </div>
+        <hr>
+        <div class="content">
+            <div class="card" style="width: 18rem;">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.u-LGMDwMFZZLdIhk3ehnawHaE8&pid=Api&P=0&h=180" class="card-img-top" alt="pic1">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://static1.makeuseofimages.com/wp-content/uploads/2014/09/tech-change-world.jpg" class="card-img-top" alt="pic2">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="http://thestatetimes.com/wp-content/uploads/2018/02/infotech.jpg" class="card-img-top" alt="pic3">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.Ltg4i1aTEbSOR92jTABefwHaEX&pid=Api&P=0&h=180" class="card-img-top" alt="pic4">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://i0.wp.com/www.2scaleup.com/wp-content/uploads/2019/01/stockvault-information-technology-concept174322.jpg?w=2900&ssl=1" class="card-img-top" alt="pic5">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://images.hdqwalls.com/download/internet-technology-hg-1920x1080.jpg" class="card-img-top" alt="pic6">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              
+        </div>
+    </section>
+    <section id="signUpContainer">
+
+    </section>
+    <section class="membershipPage" id="membershipPage">
+    <div class="memberTitle">
+        <h1 style="font-weight: 600;">Membership Premium Offers</h1>
+        <p>Unlock a year of exclusive access to premium content, expert opinions, and in-depth analysis trusted by world's forward thinking leaders for just Rs.5599. Become a TechBlog member for less than Rs.100/week.</p>
+    </div>
+    <div class="priceCard">
+        <div class="card text-center">
+            <div class="card-header">
+              Monthly
+            </div>
+            <div class="card-body">
+                <h6>Casual</h6>
+              <h5 class="card-title">Rs.499</h5>
+              <p class="card-text">Monthly Billed</p>
+              <a href="#" onclick="signUp()" class="btn btn-primary">Subscribe</a>
+            </div>
+            <div class="card-footer text-body-secondary">
+              No automatic renewal
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-header">
+              Annually
+            </div>
+            <div class="card-body">
+                <h6 style="color:red;">Less than Rs.100 per week</h6>
+              <h5 class="card-title">Rs.5499</h5>
+              <p class="card-text">For your First year</p>
+              <a href="#" onclick="signUp()" class="btn btn-danger">Subscribe</a>
+            </div>
+            <div class="card-footer text-body-secondary">
+              Renews at Rs.6599 Annually
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-header">
+              Two Year
+            </div>
+            <div class="card-body">
+                <h6>For Savings</h6>
+              <h5 class="card-title">Rs.6499</h5>
+              <p class="card-text">For your Two years</p>
+              <a onclick="signUp()" class="btn btn-primary">Subscribe</a>
+            </div>
+            <div class="card-footer text-body-secondary">
+              Renews at Rs.7599 
+            </div>
+          </div>
+          
+    </div>
+    <br><br/>
+    <h5>Memberships renew automatically. You can cancel your membership at any time.</h5>
+        </section>
+    <section class="footer">
+        <h1>TechBlog</h1>
+        <p>© 2024 TechBlog Channel. All rights reserved.</p>
+    </section>
+</body>
+</html>
